@@ -1,0 +1,121 @@
+*{
+   color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #E06D06;
+}
+
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #040303;
+    color: white;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: #101010;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+
+/* About me styling */
+
+.about-me{
+    text-align: center;
+    margin: 1rem 3rem;
+    transform: translateX(-1000px);
+}
+
+.slideout{
+    transform: translateX(-1000px);
+    transition-duration: 500ms;
+}
+
+.slidein{
+    transform: translateX(0px);
+    transition-duration: 500ms;
+}
+
+.about-me h1{
+    border-bottom: solid 2px white;
+}
+
+.about-me .fab{
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+.about-me img{
+    width: 150px;
+}
+
+/* Project styling */
+
+.card{
+    text-align: center;
+    margin: 2rem 3rem;
+    background: rgba( 0, 0, 0, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 14.5px );
+    -webkit-backdrop-filter: blur( 14.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.card a{
+    padding: 0 10rem 0 10rem;
+    background-color: #B3442B;
+    color: white;
+    border-radius: 10px;
+}
+
+.card-links :hover{
+    background-color: white;
+    transition-duration: 100ms;
+}
+
+
+
+.card h3{
+    border-bottom: solid 2px black;
+}
+
+.card-text{
+    font-size: 1rem;
+    margin: 1rem 2rem;
+}
+
+.card img{
+    width: 100%;
+}
+
+
+/*Animation classes */
+
+.fadein{
+    opacity: 1;
+    transition-duration: 500ms;
+}
+
+.fadeout{
+    opacity: 0;
+    transition-duration: 500ms;
+}
+
+
+
