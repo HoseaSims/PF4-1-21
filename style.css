@@ -31,7 +31,7 @@ a{
     background-color: #101010;
   }
   
-  /* Style the image inside the centered container, if needed */
+
 
 /* About me styling */
 
@@ -53,15 +53,32 @@ a{
 
 .about-me h1{
     border-bottom: solid 2px white;
+    font-size: 4rem;
+    margin-bottom: 0;
 }
 
 .about-me .fab{
-    font-size: 2rem;
+    font-size: 4rem;
     padding-left: 1rem;
 }
 
 .about-me img{
     width: 150px;
+}
+
+.about-me p{
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.about-me h3{
+    font-size: 2rem;
+}
+
+.resume{
+    display: block;
+    font-size: 4rem;
+    padding-top: 2rem;
 }
 
 /* Project styling */
