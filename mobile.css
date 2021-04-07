@@ -3,13 +3,20 @@
     font-family: "Lexend", sans-serif;
   }
 
+  a{
+      text-decoration: none;
+  }
+
 body{
     background-color: #151e3f;
     text-align: center;
 }
 
+/* About me Styling */
+
 .about-me{
     margin-bottom: 2rem
+    transform: translateX(-1000px);
 }
 
 .about-me a{
@@ -44,8 +51,10 @@ body{
     margin-top: 1rem;
 }
 
+/* Project Styling */
+
 .card{
-    background: rgba(0, 0, 0, 0.55);
+    background: rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(14.5px);
   -webkit-backdrop-filter: blur(14.5px);
   border-radius: 10px;
@@ -53,14 +62,15 @@ body{
 }
 
 .card a{
-    margin: 3rem;
+    margin: 2rem;
+    padding: .5rem;
     background-color: #C97D60;
     color: white;
     border-radius: 10px;
 }
 
 .card-links{
-
+    margin-bottom: 1rem;
 }
 
 .card img{
@@ -70,3 +80,25 @@ body{
 .projects{
     margin-top: 1rem;
 }
+
+/* Animation Classes */
+
+.fadein {
+    opacity: 1;
+    transition-duration: 500ms;
+  }
+  
+  .fadeout {
+    opacity: 0;
+    transition-duration: 500ms;
+  }
+
+  .slideout {
+    transform: translateX(-1000px);
+    transition-duration: 500ms;
+  }
+  
+  .slidein {
+    transform: translateX(0px);
+    transition-duration: 500ms;
+  }

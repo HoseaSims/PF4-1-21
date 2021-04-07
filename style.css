@@ -86,7 +86,7 @@ a {
 .card {
   text-align: center;
   margin: 2rem 3rem;
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(14.5px);
   -webkit-backdrop-filter: blur(14.5px);
   border-radius: 10px;
@@ -94,7 +94,9 @@ a {
 }
 
 .card a {
-  padding: 0 10rem 0 10rem;
+  padding: .5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   background-color: #C97D60;
   color: white;
   border-radius: 10px;
