@@ -5,7 +5,7 @@
 
 a {
   text-decoration: none;
-  color: #e06d06;
+  color: #FFF;
 }
 
 /* Split the screen in half */
@@ -22,14 +22,14 @@ a {
 /* Control the left side */
 .left {
   left: 0;
-  background-color: #040303;
+  background-color: #151e3f;
   color: white;
 }
 
 /* Control the right side */
 .right {
   right: 0;
-  background-color: #101010;
+  background-color: #2B303A;
 }
 
 /* About me styling */
@@ -87,7 +87,6 @@ a {
   text-align: center;
   margin: 2rem 3rem;
   background: rgba(0, 0, 0, 0.55);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(14.5px);
   -webkit-backdrop-filter: blur(14.5px);
   border-radius: 10px;
@@ -96,7 +95,7 @@ a {
 
 .card a {
   padding: 0 10rem 0 10rem;
-  background-color: #b3442b;
+  background-color: #C97D60;
   color: white;
   border-radius: 10px;
 }
@@ -107,7 +106,7 @@ a {
 }
 
 .card h3 {
-  border-bottom: solid 2px black;
+  border-bottom: solid 2px #C97D60;
 }
 
 .card-text {
